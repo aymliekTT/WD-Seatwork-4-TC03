@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+ul{
+    list-style: none;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1440px;
+    margin: auto;
+    padding: 30px 75px;
+    transition: all 1s ease;
+}
+.logo h2 {
+    color: var(--light-color);
+}
+
+.btn-menubar {
+    outline: none;
+    border: none;
+    padding: 10px 10px 4px 10px;
+    color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0);
+    display: flex;
+}
+
+.btn-menubar svg {
+    width: 20px;
+    height: 20px;
+    fill: #151621;
+    margin-bottom: 0;
+}
+
+.lg-hidden {
+    display: none;
+}
+
+.menu-right > .menu-li{
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 55px;
+}
+
+.fa-user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: #151621;
+    background-color: rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    margin-left: 670px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+    &:hover {
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        background-color: rgba(255, 255, 255, 0.4);
+    }
+}
+
+.btn-link {
+    display: flex;
+    border: none;
+    outline: none;
+    padding: 8px 18px;
+    margin-left: 660px;
+}
+
+.btn-link-two {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    outline: none;
+    border-radius: 15px;
+    padding: 10px 20px;
+    margin: 30px 0px 0px 0px;
+    font-size: 18px;
+    color: #151621;
+    background-color: rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+    &:hover {
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        background-color: rgba(255, 255, 255, 0.4);
+    }
+}
+
+
+.menu-li .menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+
+.menu-li .menu-link{
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 13px;
+    padding: 5px 10px 5px 10px;
+    color: #1c1c17;
+    font-size: 15px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+
+    &:hover{
+        padding: 5px 10px 5px 10px;
+        border: 1px solid rgba(255, 255, 255, 0.4);
+        border-radius: 13px;
+        background-color: rgba(255, 255, 255, 0.5);
+    }
+}
+
+.header{
+    position: relative;
+    background: url('../img/assassin-background.jpeg');
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.text-box{
+    width: 50%;
+    padding: 0 75px;
+    display: flex;
+    height: 80vh;
+    align-items: center;
+}
+
+.text-content h1{
+    color: #e2e0da;
+    font-size: 4rem;
+}
+
+.text-content .btn-link{
+    padding: 1rem 2rem;
+    font-size: 17px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.text-content h1{
+    text-shadow: 2px 2px 2px #151621;
+}
+
+@media (max-width:900px) {
+    .sm-hidden {
+        display: none;
+    }
+
+    .lg-hidden {
+        display: block;
+    }
+
+    .navbar {
+        padding: 10px 25px;
+    }
+
+    .fa-user {
+        display: none;
+    }
+
+    .menu-right .menu-li {
+        position: fixed;
+        top: -550px;
+        left: 0px;
+        padding: 10px 25px;
+        width: 100%;
+        opacity: 0;
+        z-index: 1;
+        gap: 10px;
+        color: #151621;
+        background: rgba(0, 0, 0, 0.2);
+        flex-direction: column;
+        visibility: hidden;
+        transition: all 1s ease;
+        transform-origin: bottom;
+    }
+
+    .navbar.active {
+        background-color: rgba(0, 0, 0, 0.2);
+    }
+
+    .menu-li.active {
+        left: 0;
+        top: 60px;
+        opacity: 1;
+        visibility: visible;
+        background-color: rgba(0, 0, 0, 0.2);
+    }
+    .menu-li.active .menu-link{
+        display: flex;
+        justify-content: center;
+        border: 0;
+        font-weight: 600;
+        color: #151621;
+        background-color: rgba(0, 0, 0, 0);
+    }
+
+    .menu-li li {
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+    }
+
+    .text-box{
+        width: 100%;
+        padding: 0 25px;
+    }
+
+    .text-content h1{
+        font-size: 2.5rem;
+    }
+
+    .btn-link{
+        padding: 10px 12px;
+    }
+
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hero Section</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="./assets/js/scripts.js" defer></script>
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="menu_left">
+            <div class="logo">
+                <img src="./assets/img/hogwarts-logo.png" alt="hogwarts-logo">
+            </div>
+            <div class="menu-li">
+                <ul class="menu">
+                    <li class="menu_list">
+                        <a href="../../index.html">Home</a>
+                    </li>
+                    <li class="menu_list">
+                        <a href="../hero-three/index.html">Hero 3</a>
+                    </li>
+                    <li class="menu_list">
+                        <a href="../hero-four/index.html">Hero 4</a>
+                    </li>
+                    <li class="menu_list">
+                        <a href="../hero-five/index.html">Hero 5</a>
+                    </li>
+                    <li class="menu_list lg-hidden"></li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="menu_right">
+            <a href="" class="btn-contact sm-hidden"></a>
+            <button onclick="toggleMenu()" class="btn-menubar lg-hidden">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                    <path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" />
+                </svg>
+            </button>
+        </div>
+    </nav>
+
+    <div class="card">
+        <div class="card-img">
+            <img src="./assets/img/gryffindor-room.png" alt="gryffindor-room" class="active">
+            <img src="./assets/img/slytherin-room.webp" alt="slytherin-room">
+            <img src="./assets/img/ravenclaw-room.jpg" alt="ravenclaw-room">
+            <img src="./assets/img/hufflepuff-room.webp" alt="hufflepuff-room">
+        </div>
+        <div class="text-content">
+            <div class="text-data active">
+                <h1 class="h1-one">Gryffindor</h1>
+                <p class="p-one">Gryffindor valued bravery, daring, nerve, and chivalry. Its emblematic animal was the lion, 
+                   its representative gemstone was rubies, and its colours were scarlet and gold. Minerva McGonagall 
+                   was the most recent Head of Gryffindor. Sir Nicholas de Mimsy-Porpington, also known as "Nearly 
+                   Headless Nick", was the House Ghost. The founder of the House was Godric Gryffindor. Gryffindor 
+                   corresponded to the element of fire.</p>
+                <button>Enroll Now</button>
+            </div>
+            <div class="text-data">
+                <h1 class="h1-two">Slytherin</h1>
+                <p class="p-two">Slytherin valued ambition, leadership, self-preservation, cunning and resourcefulness and was founded 
+                   by Salazar Slytherin. Its emblematic animal was the serpent, its representative gemstone was emeralds, 
+                   and its colours were emerald green and silver. The Bloody Baron was the House ghost. Slytherin corresponded 
+                   roughly to the element of water.</p>
+                <button>Enroll Now</button>
+            </div>
+            <div class="text-data">
+                <h1 class="h1-three">Ravenclaw</h1>
+                <p class="p-three">Ravenclaw valued intelligence, knowledge, curiosity, creativity and wit. Its emblematic animal was 
+                   the eagle, its representative gemstone was sapphires, and its colours were blue and bronze. The 
+                   Ravenclaw Head of House in the 1990s was Filius Flitwick. The ghost of Ravenclaw was the Grey Lady, 
+                   who was the daughter of Rowena Ravenclaw, the House's founder. Ravenclaw corresponded to the element 
+                   of air.</p>
+                <button>Enroll Now</button>
+            </div>
+            <div class="text-data">
+                <h1 class="h1-four">Hufflepuff</h1>
+                <p class="p-four">Hufflepuff valued hard work, dedication, patience, loyalty, and fair play. Its emblematic animal 
+                   was the badger, its representative gemstone was yellow diamonds, and yellow and black were its 
+                   colours. Hufflepuff corresponded to the element of earth.  The Fat Friar was its ghost. The founder 
+                   of the House was Helga Hufflepuff.</p>
+                <button>Enroll Now</button>
+            </div>
+        </div>
+        <div class="bottom">
+            <button onclick="previuos();previuostext();"><span>&#8592;</span> Previous</button>
+            <button onclick="next();nexttext();">Next<span>&#8594;</span></button>
+        </div>
+    </div>
+</body>
+
+</html>
