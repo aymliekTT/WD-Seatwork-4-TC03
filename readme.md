@@ -5,7 +5,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/aymliekTT">
-  <!-- TODO: If you want to add logo or banner you can add it here -->
+  <!-- TODO: If you want to add a logo or banner you can add it here -->
     <img src="./assets/img/cat-logo.png" alt="cat-logo" width="130" height="130">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
@@ -13,7 +13,7 @@
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Five different kinds of Hero Section.
+  Five different kinds of Hero Sections.
 </div>
 
 <br />
@@ -57,17 +57,17 @@
 
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
-Description of the project in details.
+Description of the project in detail.
 
 Guiding Question:
 - What is the project?
-  - The project is about creating an interactive and responsive hero sections. 
-- Whats the purpose?
-  - The purpose of this project is to showcase distinct design layouts for different features using pure HTML, CSS, and JavaScript.
-- What are key components?
-  - It is a responsive multipaged animated website that displays five kinds of hero section.
-- What technology used and how it is used?
-  - The technologies used on this website are HTML, CSS, and JavaScript. The HTML is used to lay out the headers and footers, while the CSS makes it more visually pleasing, and lastly the JavaScript is used to make the buttons interactive. 
+  - The project is about creating an interactive and responsive hero section. 
+- What is the purpose?
+  - This project aims to showcase distinct design layouts for different features using pure HTML, CSS, and JavaScript.
+- What are the key components?
+  - It is a responsive multipage animated website that displays five kinds of hero sections.
+- What technology is used and how is it used?
+  - The technologies used on this website are HTML, CSS, and JavaScript. The HTML is used to lay out the headers and footers, while the CSS makes it more visually pleasing, and lastly, the JavaScript is used to make the buttons interactive. 
 
 ### Key Components
 <!-- TODO: List of Key Components -->
@@ -121,6 +121,5 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| W3C Icons | Used to input svg type icons. | https://design-system.w3.org/styles/svg-icons.html |
 | Google Fonts | Used to change the font of the content. | https://fonts.google.com |
-| Font Awesome Icons | Used to input icons. | https://fontawesome.com/ |
+| Font Awesome Icons | Used to input icons and also svg type icons. | https://fontawesome.com/ |
