@@ -29,15 +29,13 @@ a {
     transition: all 1s ease;
 }
 .logo h2 {
-    color: var(--light-color);
+    color: #d8d9d5;
 }
 
 .btn-menubar {
     outline: none;
     border: none;
     padding: 10px 10px 4px 10px;
-    color: rgba(0, 0, 0, 0.2);
-    background-color: rgba(0, 0, 0, 0);
     display: flex;
 }
 
@@ -46,6 +44,11 @@ a {
     height: 20px;
     fill: #151621;
     margin-bottom: 0;
+    transition: all 0.3s ease;
+
+    &:hover{
+        fill: #d8d9d5;
+    }
 }
 
 .lg-hidden {
@@ -64,9 +67,8 @@ a {
     justify-content: center;
     align-items: center;
     font-size: 20px;
-    color: #151621;
-    background-color: rgba(0, 0, 0, 0.2);
-    border: 1px solid rgba(0, 0, 0, 0.2);
+    color: #19131c;
+    background-color: #8d989b;
     border-radius: 50%;
     margin-left: 670px;
     width: 40px;
@@ -74,9 +76,9 @@ a {
     cursor: pointer;
     transition: all 0.3s ease;
 
-    &:hover {
-        border: 1px solid rgba(255, 255, 255, 0.3);
-        background-color: rgba(255, 255, 255, 0.4);
+    &:hover{
+        color: #d8d9d5;
+        background-color: #19131c;
     }
 }
 
@@ -89,20 +91,20 @@ a {
 }
 
 .btn-link-two {
-    border: 1px solid rgba(0, 0, 0, 0.2);
+    border: none;
     outline: none;
     border-radius: 15px;
     padding: 10px 20px;
     margin: 30px 0px 0px 0px;
     font-size: 18px;
-    color: #151621;
-    background-color: rgba(0, 0, 0, 0.2);
+    color: #19131c;
+    background-color: #8d989b;
     cursor: pointer;
     transition: all 0.3s ease;
 
-    &:hover {
-        border: 1px solid rgba(255, 255, 255, 0.3);
-        background-color: rgba(255, 255, 255, 0.4);
+    &:hover{
+        color: #d8d9d5;
+        background-color: #19131c;
     }
 }
 
@@ -115,26 +117,23 @@ a {
 }
 
 .menu-li .menu-link{
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: #8d989b;
     border-radius: 13px;
     padding: 5px 10px 5px 10px;
-    color: #1c1c17;
-    font-size: 15px;
+    color: #19131c;
+    font-size: 16px;
     text-decoration: none;
     transition: all 0.3s ease;
 
     &:hover{
-        padding: 5px 10px 5px 10px;
-        border: 1px solid rgba(255, 255, 255, 0.4);
-        border-radius: 13px;
-        background-color: rgba(255, 255, 255, 0.5);
+        color: #d8d9d5;
+        background-color: #19131c;
     }
 }
 
 .header{
     position: relative;
-    background: url('../img/assassin-background.jpeg');
+    background: url('../img/ac-background.jpg');
     width: 100%;
     height: 100vh;
     background-size: cover;
@@ -151,7 +150,7 @@ a {
 }
 
 .text-content h1{
-    color: #e2e0da;
+    color: #d8d9d5;
     font-size: 4rem;
 }
 
@@ -163,7 +162,7 @@ a {
 }
 
 .text-content h1{
-    text-shadow: 2px 2px 2px #151621;
+    text-shadow: 2px 2px 2px #19131c;
 }
 
 @media (max-width:900px) {
@@ -173,6 +172,13 @@ a {
 
     .lg-hidden {
         display: block;
+        background-color: #8d989b;
+        cursor: pointer;
+        transition: all 0.3s ease;
+
+        &:hover{
+            background-color: #19131c;
+        }
     }
 
     .navbar {
@@ -216,8 +222,13 @@ a {
         justify-content: center;
         border: 0;
         font-weight: 600;
-        color: #151621;
+        color: #8d989b;
         background-color: rgba(0, 0, 0, 0);
+
+        &:hover{
+            color: #d8d9d5;
+            background-color: rgba(0, 0, 0, 0.2);
+        }
     }
 
     .menu-li li {
