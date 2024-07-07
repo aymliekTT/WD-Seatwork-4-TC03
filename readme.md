@@ -9,11 +9,11 @@
     <img src="./assets/img/cat-logo.png" alt="cat-logo" width="130" height="130">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Hero Designs</h3>
+  <h3 align="center">Hero Section Gallery</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Five different kinds of Hero Sections.
+  Welcome to Hero Section Gallery, a website showcasing distinct, innovative design layouts. The landing page greets you with a sleek and intuitive interface, inviting you to explore the art of layout design. Featured prominently are four hero designs, each demonstrating unique approaches to creating captivating and functional hero sections. From bold, image-driven compositions to minimalist, text-centric designs, my gallery emphasizes the versatility and creativity that define exceptional layout design. Whether you're seeking inspiration or aiming to enhance your design skills, Hero Section Gallery is your ultimate resource for mastering the craft of compelling web design.
 </div>
 
 <br />
@@ -61,13 +61,13 @@ Description of the project in detail.
 
 Guiding Question:
 - What is the project?
-  - The project is about creating an interactive and responsive hero section. 
+  - The project is about creating five interactive and responsive hero sections. 
 - What is the purpose?
   - This project aims to showcase distinct design layouts for different features using pure HTML, CSS, and JavaScript.
 - What are the key components?
-  - It is a responsive multipage animated website that displays five kinds of hero sections.
+  - It is a responsive multipage animated website that displays five designs of hero sections.
 - What technology is used and how is it used?
-  - The technologies used on this website are HTML, CSS, and JavaScript. The HTML is used to lay out the headers and footers, while the CSS makes it more visually pleasing, and lastly, the JavaScript is used to make the buttons interactive. 
+  - The technologies used on this website are HTML, CSS, and JavaScript. HTML is used to lay out the headers and footers, while CSS makes it more visually pleasing, and JavaScript is used to make the buttons interactive. 
 
 ### Key Components
 <!-- TODO: List of Key Components -->
