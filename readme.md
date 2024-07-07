@@ -13,7 +13,7 @@
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Welcome to Hero Section Gallery, a website showcasing distinct, innovative design layouts. The landing page greets you with a sleek and intuitive interface, inviting you to explore the art of layout design. Featured prominently are four hero designs, each demonstrating unique approaches to creating captivating and functional hero sections. From bold, image-driven compositions to minimalist, text-centric designs, my gallery emphasizes the versatility and creativity that define exceptional layout design. Whether you're seeking inspiration or aiming to enhance your design skills, Hero Section Gallery is your ultimate resource for mastering the craft of compelling web design.
+  Welcome to Hero Section Gallery, a website showcasing distinct, innovative design layouts. The landing page greets you with a sleek and intuitive interface, inviting you to explore the art of layout design. Featured prominently are four hero designs, each demonstrating unique approaches to creating captivating and functional hero sections. From bold, image-driven compositions to minimalist, text-centric designs, my gallery emphasizes the versatility and creativity that define exceptional layout design.
 </div>
 
 <br />
