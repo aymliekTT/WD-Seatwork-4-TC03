@@ -63,11 +63,11 @@ Guiding Question:
 - What is the project?
   - The project is about creating five interactive and responsive hero sections. 
 - What is the purpose?
-  - This project aims to showcase distinct design layouts for different hero sections using pure HTML, CSS, and JavaScript.
+  - This project aims to showcase distinct design layouts for hero sections using pure HTML, CSS, and JavaScript.
 - What are the key components?
   - It is a responsive multipage animated website that displays five designs of hero sections.
 - What technology is used and how is it used?
-  - The technologies used on this website are HTML, CSS, and JavaScript. HTML is used to lay out the headers and footers, while CSS makes it more visually pleasing, and JavaScript is used to make the buttons interactive. 
+  - The technologies used on this website are HTML, CSS, and JavaScript. HTML is used to lay out the headers and hero section, while CSS makes it more visually pleasing, and JavaScript makes the buttons interactive. 
 
 ### Key Components
 <!-- TODO: List of Key Components -->
